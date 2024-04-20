@@ -76,7 +76,7 @@ The Student Registration System provides a simple and intuitive way to manage st
 
 ## Screenshots
 
-![Screenshot](images/screenshot.png)
+![Screenshot](others\img\index.png)
 ![Screenshot](images/screenshot.png)
 <!-- Add more screenshots as needed -->
 
