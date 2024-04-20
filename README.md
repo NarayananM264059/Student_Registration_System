@@ -76,7 +76,7 @@ The Student Registration System provides a simple and intuitive way to manage st
 
 ## Screenshots
 
-![Model]((https://github.com/NarayananM264059/Student_Registration_System/blob/main/others/img/index.png))
+![Model]((others/img/index.png)
 ![Screenshot 2](https://link-to-your-screenshot.com)
 <!-- Add more screenshots as needed -->
 
