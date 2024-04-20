@@ -22,7 +22,8 @@ The Student Registration System is a web-based application designed to manage st
 
 3. **Edit and Delete Functionality:**
    - Users can edit existing student records by clicking the Edit button next to a student's details.
-   - After editing, the page is redirected to the registration form with the selected student's details pre-filled.
+   - Clicking the "Edit" button next to a student record opens a modal popup.The modal displays a form (#updateModal) with the selected student's details pre-filled.
+   - Users can modify the student details in the modal and update them.
    - Users can delete student records by clicking the Delete button, removing the record from the displayed list and local storage.
 
 4. **Navigation:**
