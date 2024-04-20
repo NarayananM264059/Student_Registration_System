@@ -76,12 +76,11 @@ The Student Registration System provides a simple and intuitive way to manage st
 
 ## Screenshots
 
-![Screenshot](https://github.com/NarayananM264059/Student_Registration_System/blob/main/others/img/index.png?raw=true)
-![Screenshot](images/screenshot.png)
-<!-- Add more screenshots as needed -->
+![index.html](https://github.com/NarayananM264059/Student_Registration_System/blob/main/others/img/index.png?raw=true)
+![display.html](https://github.com/NarayananM264059/Student_Registration_System/blob/main/others/img/display.png?raw=true)
+![update form](https://github.com/NarayananM264059/Student_Registration_System/blob/main/others/img/update.png?raw=true)
+
 
 ## Videos
 
-[![Video 1](https://link-to-your-video-thumbnail.com)](https://link-to-your-video.com)
-[![Video 2](https://link-to-your-video-thumbnail.com)](https://link-to-your-video.com)
-<!-- Add more videos as needed -->
+[![Presentation video](https://github.com/NarayananM264059/Student_Registration_System/raw/main/others/videos/Dom%20Assignment%20Presentation.mp4)
