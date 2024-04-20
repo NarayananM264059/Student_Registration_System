@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Student Registration System</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+        
+        <!-- Registration Form Section -->
+        <section id="registrationSection">
+            <form id="studentForm">
+                <!-- Student Name Input -->
+                <div class="input-group">
+                    <label for="studentName">Student Name*</label>
+                    <input type="text" id="studentName" required pattern="[A-Za-z ]+">
+                </div>
+                <!-- Student ID Input -->
+                <div class="input-group">
+                    <label for="studentID">Student ID*</label>
+                    <input type="number" id="studentID" required>
+                </div>
+                <!-- Email Input -->
+                <div class="input-group">
+                    <label for="email">Email ID*</label>
+                    <input type="email" id="email" required>
+                </div>
+                <!-- Contact Number Input -->
+                <div class="input-group">
+                    <label for="contactNo">Contact No*</label>
+                    <input type="tel" id="contactNo" required pattern="[0-9]+">
+                </div>
+                <!-- Buttons -->
+                <div class="button-container">
+                    <button type="submit" onclick="addStudent()">Register</button>
+                    <button onclick="goTodisplayForm()">Registered Students</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024  All Rights Reserved </p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

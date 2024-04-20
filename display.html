@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registered Students</title>
+    <link rel="stylesheet" href="display-style.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Registered Students</h1>
+    </header>
+
+    <!-- Main Content Section -->
+    <main>
+
+        <div class="flex-container">
+            <h2>List of Registered Students</h2>
+            <button onclick="goToRegistrationForm()">Home</button>
+        </div>
+
+        <!-- Display Section -->
+        <section id="displaySection">
+            <table>
+                <thead>
+                    <tr>
+                        
+                        <th>Student ID</th>
+                        <th>Student Name</th>
+                        <th>Email ID</th>
+                        <th>Contact No</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="studentList">
+                    <!-- Student records will be added dynamically -->
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Update Modal Popup -->
+        <div id="updateModal" class="modal">
+            <div class="modal-content">
+                <span class="close-btn" onclick="closeUpdateModal()">&times;</span>
+                <form id="updateStudentForm">
+                    <!-- Student Name Input -->
+                    <div class="input-group">
+                        <label for="updateStudentName">Student Name:</label>
+                        <input type="text" id="updateStudentName" pattern="[a-zA-Z\s]+" required>
+                    </div>
+                    <!-- Student ID Input -->
+                    <div class="input-group">
+                        <label for="updateStudentID">Student ID:</label>
+                        <input type="number" id="updateStudentID" required readonly>
+                    </div>
+                    <!-- Email Input -->
+                    <div class="input-group">
+                        <label for="updateEmail">Email ID:</label>
+                        <input type="email" id="updateEmail" required>
+                    </div>
+                    <!-- Contact Number Input -->
+                    <div class="input-group">
+                        <label for="updateContactNo">Contact No:</label>
+                        <input type="tel" id="updateContactNo" required pattern="[0-9]+">
+                    </div>
+                    <!-- Update Button -->
+                    <div class="button-container">
+                        <button type="button" onclick="updateStudent()">Update</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 All Rights Reserved</p>
+    </footer>
+
+    <script src="display-script.js"></script>
+</body>
+</html>
