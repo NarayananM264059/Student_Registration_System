@@ -36,13 +36,39 @@ The Student Registration System is a web-based application designed to manage st
 6. **Local Storage:**
    - Student records are stored locally using JavaScript's local storage feature, ensuring data persistence even after page refresh.
 
-**Technical Stack:**
+**Implementation Details:**
 
-- **Front-end:** HTML, CSS, JavaScript
-- **Storage:** Local Storage
+- **HTML:** 
+  - `index.html`: Contains the registration form for adding new students.
+  - `display.html`: Displays the list of registered students in a table.
+  - Both pages have a header, main content section, and footer.
 
-**Purpose:**
+- **CSS:**
+  - `style.css`: Styles the registration form and other elements on `index.html`.
+  - `display-style.css`: Styles the display table and modal popup for `display.html`.
 
-The Student Registration System aims to provide a user-friendly interface for managing student records effectively. It is designed for educational institutions or organizations that require a simple and efficient system to register and manage student information.
+- **JavaScript:**
+  - `script.js`: Contains functions for registering new students and navigating between pages.
+  - `display-script.js`: Contains functions for displaying, editing, and deleting student records on `display.html`.
 
-By implementing this Student Registration System, users can easily register new students, view existing records, and perform necessary actions such as editing or deleting records, all within a single web application.
+**Workflow:**
+
+1. **Registration:**
+   - Users navigate to `index.html` to register new students by filling out the registration form.
+   - Upon clicking the "Register" button, the student details are validated and added to `localStorage`.
+
+2. **Display:**
+   - Users can view the list of registered students by navigating to `display.html`.
+   - The list is populated dynamically from `localStorage` using JavaScript.
+
+3. **Editing:**
+   - Users can edit a student's details by clicking the "Edit" button next to the student's record.
+   - A modal popup appears with the student's details pre-filled.
+   - After editing, users can click the "Update" button to save the changes to `localStorage`.
+
+4. **Deletion:**
+   - Users can delete a student record by clicking the "Delete" button next to the student's record.
+   - The student is removed from `localStorage`, and the display is updated to reflect the changes.
+
+**Conclusion:**
+The Student Registration System provides a simple and intuitive way to manage student records. It offers essential functionalities like registration, editing, and deletion of student records, all while ensuring data persistence using `localStorage`. The user interface is designed to be user-friendly, with input validation and clear navigation between pages.
