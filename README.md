@@ -72,3 +72,16 @@ The Student Registration System is a web-based application designed to manage st
 
 **Conclusion:**
 The Student Registration System provides a simple and intuitive way to manage student records. It offers essential functionalities like registration, editing, and deletion of student records, all while ensuring data persistence using `localStorage`. The user interface is designed to be user-friendly, with input validation and clear navigation between pages.
+
+
+## Screenshots
+
+![Screenshot 1]((https://github.com/NarayananM264059/Student_Registration_System/blob/main/others/img/index.png))
+![Screenshot 2](https://link-to-your-screenshot.com)
+<!-- Add more screenshots as needed -->
+
+## Videos
+
+[![Video 1](https://link-to-your-video-thumbnail.com)](https://link-to-your-video.com)
+[![Video 2](https://link-to-your-video-thumbnail.com)](https://link-to-your-video.com)
+<!-- Add more videos as needed -->
